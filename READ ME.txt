@@ -1,0 +1,7 @@
+READ ME
+
+Pre-requisite for running the robot script
+1) Install Python
+2) Install Pip (py get-pip.py)
+2) Install Robot Framework (pip install robotframework)
+3) Add Selenium library 
