@@ -11,16 +11,16 @@ ${PASSWORD}                    yRMhojb7
 #Locators
 ${COOKIES_HEADER_LOCATOR}                css:h1#cookies-label
 ${ALLOW_ALL_COOKIES_BUTTON_LOCATOR}      css:button#cookie-allow-all-button
-${LOGIN_BUTTON_LOCATOR}           css:a[href*="login"]
-${IDENTIFICATION_TEXT_LOCATOR}    css:h1[class="h1"]
-${LOGIN_SUBMIT_BUTTON_LOCATOR}    css:button[class="btn btn-lg btn-primary col-12 mt-1 mt-md-2"]
-${USERNAME_TEXTBOX_LOCATOR}       css:input#login-email
-${PASSWORD_TEXTBOX_LOCATOR}       css:input#login-password
-${USER_MENU_LOCATOR}              css:button#user-menu
-${LOGOUT_SELECTOR_LOCATOR}        css:a[href*="logout"]
+${LOGIN_BUTTON_LOCATOR}                  css:a[href*="login"]
+${IDENTIFICATION_TEXT_LOCATOR}           css:h1[class="h1"]
+${LOGIN_SUBMIT_BUTTON_LOCATOR}           css:button[class="btn btn-lg btn-primary col-12 mt-1 mt-md-2"]
+${USERNAME_TEXTBOX_LOCATOR}              css:input#login-email
+${PASSWORD_TEXTBOX_LOCATOR}              css:input#login-password
+${USER_MENU_LOCATOR}                     css:button#user-menu
+${LOGOUT_SELECTOR_LOCATOR}               css:a[href*="logout"]
 
 *** Keywords ***
-the Browser Opened to Login Page
+the Browser Open to Login Page
     Open Browser    ${URL}    ${BROWSER}
     Maximize Browser Window
     Wait Until Element Contains    ${COOKIES_HEADER_LOCATOR}    This website uses cookies

@@ -33,17 +33,17 @@ ${ROBOT_CHECKBOX_LOCATOR}                                        css:label[aria-
 ${NEXT_SCREEN_BUTTON_LOCATOR}                                    css:button#navButtonNext
 
 #Summary Screen Locators
-${SUMMARY_PAGE_LOCATOR}                                        css:div.card.stepper__item.stepper__item--active
-${FIRST_NAME_FIELD_LOCATOR}                                    css:div[id='container_629d7b5a-f6a1-5a14-ac1d-21b2fafdbdef'] div[class='field']
-${LAST_NAME_FIELD_LOCATOR}                                     css:div[id='container_23e5e47e-bab1-5a1e-9929-f180182bda43'] div[class='field']
-${ADDRESS_FIELD_LOCATOR}                                       css:div[id='container_c3f44a2e-72e9-587b-b88c-b5c9fbeed2db'] p[class='mb-0']
-${POSTAL_FIELD_LOCATOR}                                        css:body > div:nth-child(1) > main:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(32) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > fieldset:nth-child(1) > div:nth-child(3) > fieldset:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > p:nth-child(1)
-${COUNTRY_FIELD_LOCATOR}                                       css:body > div:nth-child(1) > main:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(32) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > fieldset:nth-child(1) > div:nth-child(3) > fieldset:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(1) > p:nth-child(1)
-${GENDER_FIELD_LOCATOR}                                        css:li#container_f3fa11a5-a516-5cec-9025-b940b1b113d0
-${ROLE_FIELD_LOCATOR}                                          css:p.answer.view.mb-0
-${ROBOT_FIELD_LOCATOR}                                         css:body > div:nth-child(1) > main:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(32) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > fieldset:nth-child(1) > div:nth-child(3) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(1)
-${CAREER_OBJECTIVE_FIELD_LOCATOR}                              css:p[class='mb-0 field'] 
-${VALIDATE_AND_SEND_BUTTON_LOCATOR}                            css:body > div:nth-child(1) > main:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(32) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(4) > div:nth-child(2) > button:nth-child(1)
+${SUMMARY_PAGE_LOCATOR}                                          css:div.card.stepper__item.stepper__item--active
+${FIRST_NAME_FIELD_LOCATOR}                                      css:div[id='container_629d7b5a-f6a1-5a14-ac1d-21b2fafdbdef'] div[class='field']
+${LAST_NAME_FIELD_LOCATOR}                                       css:div[id='container_23e5e47e-bab1-5a1e-9929-f180182bda43'] div[class='field']
+${ADDRESS_FIELD_LOCATOR}                                         css:div[id='container_c3f44a2e-72e9-587b-b88c-b5c9fbeed2db'] p[class='mb-0']
+${POSTAL_FIELD_LOCATOR}                                          css:body > div:nth-child(1) > main:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(32) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > fieldset:nth-child(1) > div:nth-child(3) > fieldset:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > p:nth-child(1)
+${COUNTRY_FIELD_LOCATOR}                                         css:body > div:nth-child(1) > main:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(32) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > fieldset:nth-child(1) > div:nth-child(3) > fieldset:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(1) > p:nth-child(1)
+${GENDER_FIELD_LOCATOR}                                          css:li#container_f3fa11a5-a516-5cec-9025-b940b1b113d0
+${ROLE_FIELD_LOCATOR}                                            css:p.answer.view.mb-0
+${ROBOT_FIELD_LOCATOR}                                           css:body > div:nth-child(1) > main:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(32) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > fieldset:nth-child(1) > div:nth-child(3) > div:nth-child(2) > ul:nth-child(1) > li:nth-child(1)
+${CAREER_OBJECTIVE_FIELD_LOCATOR}                                css:p[class='mb-0 field'] 
+${VALIDATE_AND_SEND_BUTTON_LOCATOR}                              css:body > div:nth-child(1) > main:nth-child(6) > div:nth-child(1) > div:nth-child(1) > div:nth-child(32) > div:nth-child(1) > form:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(4) > div:nth-child(2) > button:nth-child(1)
 
 *** Keywords ***
 the Application is submitted
@@ -54,9 +54,9 @@ the Application is submitted
     Fill Out Form
     Sleep    5s
     Click Button    ${NEXT_SCREEN_BUTTON_LOCATOR}
+    Sleep    2s
     Wait Until Element Contains    ${SUMMARY_PAGE_LOCATOR}    Summary
     Sleep    3s
-    # Validate All Inputted Values in Summary Screen
     Click Button    ${VALIDATE_AND_SEND_BUTTON_LOCATOR}
     Wait Until Element Contains    ${THANK_YOU_FOR_SUBMITTING_YOUR_PROJECT_TEXT_LOCATOR}    Thank you for submitting your project
 
@@ -74,18 +74,13 @@ Fill Out Form
     Click Element    ${ROBOT_CHECKBOX_LOCATOR}
 
 
-    #Career Objective
-    # Select Frame     ${IFRAME_LOCATOR}
-    # Input Text    ${CAREER_OBJECTIVE_TEXTBOX_LOCATOR}    ${CAREER_OBJECTIVE}
-
-
-Validate All Inputted Values in Summary Screen
-    Textfield Should Contain    ${FIRST_NAME_FIELD_LOCATOR}    ${FIRST_NAME}
-    Textfield Should Contain    ${LAST_NAME_FIELD_LOCATOR}    ${LAST_NAME}
-    Textfield Should Contain    ${ADDRESS_FIELD_LOCATOR}    ${ADDRESS}
-    Textfield Should Contain    ${POSTAL_FIELD_LOCATOR}    ${POSTAL}
-    Textfield Should Contain    ${COUNTRY_FIELD_LOCATOR}    Philippines
-    Textfield Should Contain    ${GENDER_FIELD_LOCATOR}    Male
-    Textfield Should Contain    ${ROLE_FIELD_LOCATOR}    Automation tester
-    Textfield Should Contain    ${ROBOT_FIELD_LOCATOR}    Robot Framework
-    Textfield Should Contain    ${CAREER_OBJECTIVE_FIELD_LOCATOR}    ${CAREER_OBJECTIVE}    
+# Validate All Inputted Values in Summary Screen
+#     Textfield Should Contain    ${FIRST_NAME_FIELD_LOCATOR}    ${FIRST_NAME}
+#     Textfield Should Contain    ${LAST_NAME_FIELD_LOCATOR}    ${LAST_NAME}
+#     Textfield Should Contain    ${ADDRESS_FIELD_LOCATOR}    ${ADDRESS}
+#     Textfield Should Contain    ${POSTAL_FIELD_LOCATOR}    ${POSTAL}
+#     Textfield Should Contain    ${COUNTRY_FIELD_LOCATOR}    Philippines
+#     Textfield Should Contain    ${GENDER_FIELD_LOCATOR}    Male
+#     Textfield Should Contain    ${ROLE_FIELD_LOCATOR}    Automation tester
+#     Textfield Should Contain    ${ROBOT_FIELD_LOCATOR}    Robot Framework
+#     Textfield Should Contain    ${CAREER_OBJECTIVE_FIELD_LOCATOR}    ${CAREER_OBJECTIVE}    

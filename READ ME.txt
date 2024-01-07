@@ -4,4 +4,10 @@ Pre-requisite for running the robot script
 1) Install Python
 2) Install Pip (py get-pip.py)
 2) Install Robot Framework (pip install robotframework)
-3) Add Selenium library 
+3) Add Selenium library (pip install --upgrade robotframework-seleniumlibrary)
+
+
+How to run the script:
+1) Open cmd
+2) Go to the directory of AutoTest/Tests
+3) Run the robot script (robot AutoTest.robot)
