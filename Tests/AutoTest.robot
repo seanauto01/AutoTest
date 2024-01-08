@@ -6,7 +6,7 @@ Resource          ../Resources/Submit_App_Resources.robot
 
 *** Test Cases ***
 Submit New Application Successfully
-    FOR    ${i}    IN RANGE    1   11
+    FOR    ${i}    IN RANGE    0   10
         Given the Browser Open to Login Page
         When the User Logs in the Credentials
         Then the User Login Successfully
